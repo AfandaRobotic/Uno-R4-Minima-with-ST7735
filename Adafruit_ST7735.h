@@ -2,7 +2,7 @@
 #define _ADAFRUIT_ST7735H_
 
 #include "Arduino.h"
-#include <Adafruit_SPI.h>
+#include <SPI.h>
 #include <Adafruit_GFX.h>
 
 // some flags for initR() :(
