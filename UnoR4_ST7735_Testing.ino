@@ -4,20 +4,19 @@
 #include <Adafruit_GFX.h>          // Core graphics 64bit display library.
 #include <Adafruit_ST7735.h>       // Hardware-specification library of driver.
 
-// Arduino Uno R4 (ST7735) Setup : 
+// Arduino Uno R4 Minima (ST7735) Setup : 
 #define TFT_SCLK    13
 #define TFT_MOSI    11
 #define TFT_CS      10
 #define TFT_DC       9     // (A0) 
 #define TFT_RST      8
 
-
 //Pixel for 1.44" Screen Display.
 #define TFT 1.44"
 #define SCR_WD 128
 #define SCR_HT 128
 
-// Arduino address for Pico Micro Leonardo & Uno R3 : 
+// Arduino address for Uno R3, Uno R4 Minima & Uno R4 WiFi : 
 Adafruit_ST7735 tft = Adafruit_ST7735(TFT_CS, TFT_DC, TFT_RST);
 
 void setup(void) 
